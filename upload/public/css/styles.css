@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+  background: black;
+}
+
+/* header section */
+header {
+  background: rgba(112,33,12,1);
+  background: linear-gradient(120deg, rgba(112,33,12,1) 0%, rgba(0,0,0,0) 50%, rgba(20,28,137,1) 100%);
+}
+nav {
+  display: flex;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin-right: 3rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.header-pic {
+  display: inline-block;
+}
+.header-pic img {
+  width: 600px;
+}
+.text {
+  display: inline-block;
+}
+.text h1 {
+  width: 240px;
+}
+.text p {
+  width: 340px;
+}
+.btn {
+  background: white;
+  border: white;
+  margin-bottom: 10px;
+  padding: 0.4rem;
+}
+/* The main section */
+.gardient-bg {
+  background-image: linear-gradient( blue 60%, black);
+}
+/* the features section */
+.features {
+  background: black;
+}
+.margin {
+  margin: 30px 500px;
+  font-size: 35px;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px 200px;
+}
+.feature {
+  font-size: 20px;
+}
+.feature p {
+  width: 350px;
+  font-size: 18px;
+}
+/* call to action section  */
+.call-to-action-heading {
+  font-size: 30px;
+  margin: 0 500px;
+  padding: 50px 0;
+}
+.call-to-action-p {
+  padding: 0 615px;
+  font-size: 12px;
+}
+.cta-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 150px;
+}
+.cta-option {
+  background: white;
+  color: black;
+  padding: 20px;
+  height: 450px;
+  min-width: 250px;
+  border-radius: 5px 5px;
+  font-size: 18px;
+}
+.cta-option:hover {
+  background: #EF2D56;
+  color: white;
+}
+.cta-option span {
+  font-size: 13px;
+}
+.cta-option a {
+  color: #EF2D56;
+  display: block;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.cta-option button {
+  background: #363537;
+  border: solid #363537 1px;
+  border-radius: 3px 3px;
+  padding: 5%;
+  color: white;
+}
+.cta-option h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 0 70px;
+}
+.cta-option p {
+  font-size: 18px;
+}
+.btn-c {
+  margin: 40px 570px 10px;
+  border: solid #fff 1px;
+  padding: 0.7%;
+  width: 140px;
+}
+.end-tag {
+  font-size: 15px;
+  margin-left: 530px;
+}
+/* album art showcase */
+.album-art-showcase {
+  display: flex;
+  justify-content: space-between;
+}
+.album-art img {
+  width: 200px;
+}
+/* faq section */
+.faq h2 {
+  margin: 0 600px;
+  padding-top: 35px;
+  padding-bottom: 60px;
+}
+.faq-grid {
+  display: flex;
+  padding: 0 50px 60px;
+}
+.question h3 {
+  font-size: 30px;
+}
+.question p {
+  font-size: 18px;
+}
+/* dowload section section */
+.download {
+  background: black;
+  display: flex;
+}
+.download-image img {
+  width: 500px;
+}
+.download-text p {
+  font-size: 18px;
+}
+.download-text h3 {
+  font-size: 30px;
+}
+/* footer section */
+footer {
+  background: black;
+}
+.grid {
+  display: flex;
+}
+.foot {
+  margin-right: 30px;
+}
+
+
+/* this is the css specific to the login page */
+.logo-login img {
+  width: 100px;
+  transform: translateX(175px);
+}
+.input-login {
+  display: block;
+  background: black;
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px 10px;
+  width: 500px;
+  padding: 1.2%;
+}
+.btn-login {
+  display: block;
+  color: white;
+  border-radius: 10px 10px;
+  width: 525px;
+  padding: 1.2%;
+  margin: 25px 0;
+}
+.a {
+  background: #363537;
+  border: solid 1px #363537;
+}
+.b {
+  background: blue;
+  border: solid 1px blue;
+}
+.c {
+  background: white;
+  color: black;
+  border: solid 1px white;
+}
+.d {
+    background: blue;
+    border: solid 1px blue;
+}
+.main-login {
+  padding: 3% 30%;
+}
+.h-login {
+  transform: translateX(200px);
+}
+.p-login {
+  transform: translateX(225px);
+}
+
+
+/* featured page special css */
+.container {
+  background-image: url("../images/Cover.jpg");
+  height: 500px;
+  padding-left: 550px;
+}
+.image img {
+  width: 200px;
+  height: 200px;
+}
+.image {
+  padding-top: 50px;
+}
+.btn-featured-1 {
+  display: block;
+  border: white solid 1px;
+  color: white;
+  background: transparent;
+  border-radius: 2px 2px;
+  width: 175px;
+  padding: 1%;
+  margin: 10px 0;
+}
+.btn-featured-2 {
+  display: block;
+  border: white solid 1px;
+  color: black;
+  background: white;
+  border-radius: 2px 2px;
+  width: 175px;
+  padding: 1%;
+  margin: 10px 0;
+}
+ /* sign up css */
+ .container-signup {
+   background: black;
+   padding: 5% 10%;
+   border: solid grey 1px;
+   border-radius: 2px 2px;
+ }
+ .logo-signup img {
+   width: 100px;
+   transform: translateX(175px);
+ }
+ .input-signup {
+   display: block;
+   background: transparent;
+   color: white;
+   border-bottom: solid white 1px;
+   width: 500px;
+   padding: 1.2%;
+ }
+ .btn-signup {
+   display: block;
+   color: white;
+   border-radius: 5px 5px;
+   width: 525px;
+   padding: 1.2%;
+   margin: 25px 0;
+ }
+ .a-signup {
+   background: #363537;
+   border: solid 1px #363537;
+ }
+ .b-signup {
+   background: black;
+   border: solid 1px white;
+ }
+ .main-signup {
+   padding: 3% 25%;
+ }
+ .h-signup {
+   transform: translateX(200px);
+ }
+ .p-signup {
+   transform: translateX(225px);
+ }
